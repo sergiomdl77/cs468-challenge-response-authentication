@@ -13,6 +13,4 @@ execution result  back  to  client.  The <password file> should contain  one  or
 The server will  challenge  the  client  and  use  the  shared  secret  SHA1(PW)  to  authenticate  client  request.
 It will  execute the shell command requested by the client once it has successfully authenticated the client. 
   
-•RShellClient2 <server IP> <server port number> <ID> <password>  will read shell command from the standard input (i.e., the  
-  keyboard) and send the <ID> and the shell command  to  the  server  listening  at  the <server  port  number>  on  <server  IP>.  
-  It  will  exchange nonce with the server and respond to the authentication challenge sent by server. 
+RShellClient2 <server IP> <server port number> <ID> <password> will read shell command from the standard input (i.e., the keyboard) and send the <ID> and the shell command to the server listening at the <server port number> on <server IP>. It will exchange nonce with the server and respond to the authentication clallenge sent by server.
