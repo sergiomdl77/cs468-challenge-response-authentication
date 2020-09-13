@@ -3,7 +3,7 @@
 Project Overview:
 
 For this project I was  asked  to  improve  the client/server credential authentiation from an earlier project (you can
-find that earlier project in my cs468-client-server-primitive-authentication repository) by  implementing  a  more  
+find that earlier project in my cs468-client-server-primitive-authentication repository) by  implementing  a  more
 secure authentication based on  challenge  and response  with  nonce,  user  ID  and  Password.  Specifically,  I needed
 to  develop  two C  programs: RShellClient2.c  and RShellServer2.c  such that:  
 
