@@ -2,10 +2,10 @@
 
 Project Overview:
 
-For this project I was  asked  to  improve  the client-server from an earlier project (you can find that earlier project in
-my cs468-primitive-authentication repository) by  implementing  a  more  secure authenticationbased on  challenge  and  
-response  with  nonce,  user  ID  and  Password.  Specifically,  I needed  to  develop  two C  programs: RShellClient2.c  
-and RShellServer2.c  such that:  
+For this project I was  asked  to  improve  the client/server credential authentiation from an earlier project (you can
+find that earlier project in my cs468-primitive-authentication repository) by  implementing  a  more  secure authentication 
+based on  challenge  and response  with  nonce,  user  ID  and  Password.  Specifically,  I needed  to  develop  two C  
+programs: RShellClient2.c  and RShellServer2.c  such that:  
 
 1. The command "RShellServer2  Port_number  Password_File_name"  will  listen  on  the  specified Port_number  and  authenticate
 the  remote  shell  command  based  on  the  SHA1  hash  of  the client’s  password  and  the  random  nonces  from
